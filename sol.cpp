@@ -3,15 +3,13 @@ using namespace std;
 
 int main (void) {
 
-  ios_base::sync_with_stdio (false);
+  	ios_base::sync_with_stdio (false);
 	cin.tie (NULL);
 
 	int n, x, y, subcnt = 0;
 	string line;
 
-	cin >> n;
-	cin >> x;
-	cin >> y;
+	cin >> n >> x >> y;
 
 	if (y < 0 || x <= y || n <= x || n > 200000) return 1;
 
